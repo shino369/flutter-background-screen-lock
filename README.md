@@ -48,5 +48,7 @@ final controller = AppScreenLockControllerProvider.of(context);
 controller.didUnlock(AppScreenLockConstants.success);
 ```
 
-For the status here I simply set to enum of `success, cancelled, failure, logout`, pretty straightforward. It can be changed it to other object if you want.\
-You can implement a more robust route guarding feature by using [GoRouter](https://pub.dev/packages/go_router) redirect feature, or simple create a wrapper function for navigator.
+For the status here I simply set to enum of `success, cancelled, failure, logout`, pretty straightforward.\
+It can be changed it to other object if you want.
+
+You can implement a more robust route guarding feature by using [GoRouter](https://pub.dev/packages/go_router) redirect feature, or simply create a wrapper function for navigator.
